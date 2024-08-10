@@ -1,0 +1,4 @@
+hi every one 
+we are learning file input/output 
+using python 
+i like programming in python 

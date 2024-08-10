@@ -1,0 +1,577 @@
+[
+    {
+        "label": "i",
+        "importPath": "tempCodeRunnerFile",
+        "description": "tempCodeRunnerFile",
+        "isExtraImport": true,
+        "detail": "tempCodeRunnerFile",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "name = input(\"name: \")\nage = int(input(\"age: \"))\nprice = float(input(\"price: \"))\nprint(\"my name is \", name, \"and i am \", age, \"year old\")",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "age = int(input(\"age: \"))\nprice = float(input(\"price: \"))\nprint(\"my name is \", name, \"and i am \", age, \"year old\")",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "price = float(input(\"price: \"))\nprint(\"my name is \", name, \"and i am \", age, \"year old\")",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "checkword",
+        "kind": 2,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "def checkword():\n    word = \"learning\"\n    with open(\"practice.txt\", \"r\") as f:\n        data = f.read()\n        if((\"learning\") != -1):\n            print(\"found\")\n        else:\n            print(\"not found\")\ncheckword()\n\"\"\"Q. WAF to find in which line of te file that the word  \"learning\" occurse first, print -1 if word is not found \"\"\"",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "checkline",
+        "kind": 2,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "def checkline():\n    word = \"learning\"\n    data = True\n    lineno = 1\n    with open(\"practice.txt\", \"r\") as f:\n        while data:\n            data = f.readline()\n            if(word in data):\n                print(lineno)\n                return",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"f",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "\"\"\"f = open(\"file-path\", \"mode\") mode = r, w, a, x, b etc\"\"\"\n# read operation\n\"\"\"file = open(\"10_data.txt\", \"r\")\n# data = file.read() # it read all the data at same time \n# print(data)\ndata1 = file.readline() # it reads data line by line\ndata2 = file.readline() \nprint(data1)\nprint(data2)\nfile.close()\"\"\"",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"file",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "\"\"\"file = open(\"10_data.txt\", \"r\")\n# data = file.read() # it read all the data at same time \n# print(data)\ndata1 = file.readline() # it reads data line by line\ndata2 = file.readline() \nprint(data1)\nprint(data2)\nfile.close()\"\"\"\n#write operation :-\n\"\"\"",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "data1",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "data1 = file.readline() # it reads data line by line\ndata2 = file.readline() \nprint(data1)\nprint(data2)\nfile.close()\"\"\"\n#write operation :-\n\"\"\"\nfile = open(\"10_data.txt\", \"wt\") # 'w' stands for write and 't' stands for text file (defalut)\ndata = file.write(\"write operation first remove all previous data and print new data 2+6 = 26\")\nfile.close()",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "data2",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "data2 = file.readline() \nprint(data1)\nprint(data2)\nfile.close()\"\"\"\n#write operation :-\n\"\"\"\nfile = open(\"10_data.txt\", \"wt\") # 'w' stands for write and 't' stands for text file (defalut)\ndata = file.write(\"write operation first remove all previous data and print new data 2+6 = 26\")\nfile.close()\n\"\"\"",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "file = open(\"10_data.txt\", \"wt\") # 'w' stands for write and 't' stands for text file (defalut)\ndata = file.write(\"write operation first remove all previous data and print new data 2+6 = 26\")\nfile.close()\n\"\"\"\n#append operation :-\n\"\"\"\nfile = open(\"10_data.txt\", \"at\") # 'w' stands for write and 't' stands for text file (defalut)\ndata = file.write(\"\\n it's append operation it append the writen data next to previous data\")\nfile.close()\n\"\"\"",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "data = file.write(\"write operation first remove all previous data and print new data 2+6 = 26\")\nfile.close()\n\"\"\"\n#append operation :-\n\"\"\"\nfile = open(\"10_data.txt\", \"at\") # 'w' stands for write and 't' stands for text file (defalut)\ndata = file.write(\"\\n it's append operation it append the writen data next to previous data\")\nfile.close()\n\"\"\"\n# with syntax ",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "file = open(\"10_data.txt\", \"at\") # 'w' stands for write and 't' stands for text file (defalut)\ndata = file.write(\"\\n it's append operation it append the writen data next to previous data\")\nfile.close()\n\"\"\"\n# with syntax \n\"\"\"with open(\"file_path\", \"mode\") as  f:\n    data = f.mode()\"\"\"\n# example :-\n\"\"\"with open(\"6.py\", \"r\") as f:\n        data = f.read()",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "data = file.write(\"\\n it's append operation it append the writen data next to previous data\")\nfile.close()\n\"\"\"\n# with syntax \n\"\"\"with open(\"file_path\", \"mode\") as  f:\n    data = f.mode()\"\"\"\n# example :-\n\"\"\"with open(\"6.py\", \"r\") as f:\n        data = f.read()\n        print(data)\"\"\"",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "10",
+        "description": "10",
+        "peekOfCode": "count = 0\nwith open(\"practise2.txt\", \"r\") as f:\n    data = f.read()\n    nums =  data.split(\",\")\n    for val in nums:\n        if(int(val)%2 == 0):\n            count +=1\n    print(count)",
+        "detail": "10",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "11",
+        "description": "11",
+        "peekOfCode": "class student:\n    name = \"krishna\"\n# creating object (instance)\ns1 = student()\nprint(s1.name)\n\"\"\"\n##########    _ _init_ _ function    ###########\n# Constructor\n\"\"\"All classes have a function called __init__(), which is always executed when the class is being initialted\"\"\"\n\"\"\"",
+        "detail": "11",
+        "documentation": {}
+    },
+    {
+        "label": "Students",
+        "kind": 6,
+        "importPath": "11",
+        "description": "11",
+        "peekOfCode": "class Students: \n    # default constructor\n    def __init__ (self):  \n        pass\n    # parameterized constructor\n    def __init__(self, name, marks): # the \"self\" parameter is a refrence to the current instance of the class, and is used to access variables that belongs to the class\n        self.name = name\n        self.marks = marks\n        print(\"adding new student in database..\")\ns1 = Students(\"krishna\",100)",
+        "detail": "11",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 6,
+        "importPath": "11",
+        "description": "11",
+        "peekOfCode": "class account:\n    def __init__(self,name,pwd):\n        self.name = name\n        self.__pwd = pwd\na1 = account(\"krishna\",)\nprint(a1.pwd)",
+        "detail": "11",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "11",
+        "description": "11",
+        "peekOfCode": "s1 = student()\nprint(s1.name)\n\"\"\"\n##########    _ _init_ _ function    ###########\n# Constructor\n\"\"\"All classes have a function called __init__(), which is always executed when the class is being initialted\"\"\"\n\"\"\"\nclass Students: \n    # default constructor\n    def __init__ (self):  ",
+        "detail": "11",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "11",
+        "description": "11",
+        "peekOfCode": "s1 = Students(\"krishna\",100)\nprint(s1.name)\ns2 = Students(\"sneha\",100)\nprint(s2.name)\n\"\"\"\n############# Practise Question #############\n\"\"\"create stuent class that takes name & marks of 3 subjects as arguments in constructor, then create a method to print the average.\"\"\"\n# class Student:\n#     def __init__(self,name,marks):\n#         self.name = name",
+        "detail": "11",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "11",
+        "description": "11",
+        "peekOfCode": "s2 = Students(\"sneha\",100)\nprint(s2.name)\n\"\"\"\n############# Practise Question #############\n\"\"\"create stuent class that takes name & marks of 3 subjects as arguments in constructor, then create a method to print the average.\"\"\"\n# class Student:\n#     def __init__(self,name,marks):\n#         self.name = name\n#         self.marks = marks\n#     def avg(self):",
+        "detail": "11",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "11",
+        "description": "11",
+        "peekOfCode": "a1 = account(\"krishna\",)\nprint(a1.pwd)",
+        "detail": "11",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"light",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "\"\"\"light = input(\"enter the color: \")\nif(light == \"red\"):\n    print(\"stop\")\nelif(light == \"green\"):\n    print(\"go\")\nelif(light == \"yellow\"):\n    print(\"slow down\")\nelse:\n    print(\"traffic light is not working\")\"\"\"\n# single line conditional statments or \"Ternary opreator\" :-",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"x",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "\"\"\"x = int(input(\"enter the value: \"))\nnum = 5 if (x == 5) else \"value is not match\"\nprint(num)\"\"\"\n# onother way:-\n# <stm1> if <condition> else <stm2> \n# for example :-\n\"\"\"sweet = input(\"enter food name:- \")\nprint(\"my favorit\") if sweet == \"rasmalai\" or sweet == \"rasgulla\" or sweet == \"kaju katli\" else print(\"not my favorit\")\"\"\"\n# Cleaver if Ternary operator :-\n# <var> = (\"fals_val\", \"true_val\") [<condition>]",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "num = 5 if (x == 5) else \"value is not match\"\nprint(num)\"\"\"\n# onother way:-\n# <stm1> if <condition> else <stm2> \n# for example :-\n\"\"\"sweet = input(\"enter food name:- \")\nprint(\"my favorit\") if sweet == \"rasmalai\" or sweet == \"rasgulla\" or sweet == \"kaju katli\" else print(\"not my favorit\")\"\"\"\n# Cleaver if Ternary operator :-\n# <var> = (\"fals_val\", \"true_val\") [<condition>]\n# for example:-",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"sweet",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "\"\"\"sweet = input(\"enter food name:- \")\nprint(\"my favorit\") if sweet == \"rasmalai\" or sweet == \"rasgulla\" or sweet == \"kaju katli\" else print(\"not my favorit\")\"\"\"\n# Cleaver if Ternary operator :-\n# <var> = (\"fals_val\", \"true_val\") [<condition>]\n# for example:-\n\"\"\"age = int(input(\"enter your age :- \"))\nfor_vote = (\"not eligible\", \"yes eligible\") [age >= 18]\nprint(for_vote)\"\"\"\n# second example :-\n\"\"\"salary = float(input(\"enter your salary :- \"))",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"age",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "\"\"\"age = int(input(\"enter your age :- \"))\nfor_vote = (\"not eligible\", \"yes eligible\") [age >= 18]\nprint(for_vote)\"\"\"\n# second example :-\n\"\"\"salary = float(input(\"enter your salary :- \"))\ntax = salary*(0.1, 0.2) [salary >= 50000]\nprint(tax)\"\"\"\n# Practise question :-\n\"\"\"WAP to check the number entered by the user is even or odd\"\"\"\n# userinpt = int(input(\"enter the value :- \"))",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "for_vote",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "for_vote = (\"not eligible\", \"yes eligible\") [age >= 18]\nprint(for_vote)\"\"\"\n# second example :-\n\"\"\"salary = float(input(\"enter your salary :- \"))\ntax = salary*(0.1, 0.2) [salary >= 50000]\nprint(tax)\"\"\"\n# Practise question :-\n\"\"\"WAP to check the number entered by the user is even or odd\"\"\"\n# userinpt = int(input(\"enter the value :- \"))\n# if(userinpt / 2):",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"salary",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "\"\"\"salary = float(input(\"enter your salary :- \"))\ntax = salary*(0.1, 0.2) [salary >= 50000]\nprint(tax)\"\"\"\n# Practise question :-\n\"\"\"WAP to check the number entered by the user is even or odd\"\"\"\n# userinpt = int(input(\"enter the value :- \"))\n# if(userinpt / 2):\n#     print(\"the value is even\")\n# else:\n#     print(\"the value is odd\")",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "tax",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "tax = salary*(0.1, 0.2) [salary >= 50000]\nprint(tax)\"\"\"\n# Practise question :-\n\"\"\"WAP to check the number entered by the user is even or odd\"\"\"\n# userinpt = int(input(\"enter the value :- \"))\n# if(userinpt / 2):\n#     print(\"the value is even\")\n# else:\n#     print(\"the value is odd\")\n\"\"\"WAP to find the greatest of 3 numbers entered by user\"\"\"",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "num = int(input(\"enter the number :- \"))\nif(num % 7 == 0):\n    print(\"yes, it is multiple of seven\")\nelse:\n    print(\"no, it is not a multiple of seven\")",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"num3",
+        "kind": 5,
+        "importPath": "3",
+        "description": "3",
+        "peekOfCode": "\"\"\"num3 = 20\nnum4 = 30\nprint(num3 == num4) # equal to\nprint(num3 != num4) # not equal to\nprint(num3 < num4) # lessthan\nprint(num3 > num4) # graterthan\nprint(num3 >= num4) # greaterthan or equal to\nprint(num3 <= num4) # lessthan or equal to\"\"\"\n# example of assigment operator :-\n\"\"\"num5 = 10  # assigning value by \"=\"",
+        "detail": "3",
+        "documentation": {}
+    },
+    {
+        "label": "num4",
+        "kind": 5,
+        "importPath": "3",
+        "description": "3",
+        "peekOfCode": "num4 = 30\nprint(num3 == num4) # equal to\nprint(num3 != num4) # not equal to\nprint(num3 < num4) # lessthan\nprint(num3 > num4) # graterthan\nprint(num3 >= num4) # greaterthan or equal to\nprint(num3 <= num4) # lessthan or equal to\"\"\"\n# example of assigment operator :-\n\"\"\"num5 = 10  # assigning value by \"=\"\n# num5 += 5 # add 5 to existing value  ",
+        "detail": "3",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"num5",
+        "kind": 5,
+        "importPath": "3",
+        "description": "3",
+        "peekOfCode": "\"\"\"num5 = 10  # assigning value by \"=\"\n# num5 += 5 # add 5 to existing value  \n# num5 -= 5 # subtract 5 to existing value  \n# num5 *= 5 # multiply 5 to existing value  \n# num5 /= 5 # divide 5 to existing value  \n# num5 %= 5 #  it shows remeinder when the existing value is divided by 5  \nnum5 **= 5 # it multiplies 5 times to existing value  \nprint(num5)\"\"\"\n#example of logical operator:-\nval1 = True #False",
+        "detail": "3",
+        "documentation": {}
+    },
+    {
+        "label": "val1",
+        "kind": 5,
+        "importPath": "3",
+        "description": "3",
+        "peekOfCode": "val1 = True #False\nval2 = False #True\nprint(not val2) # not operator\nprint(val1 and val2) # and operator\nprint(val1 or val2) # or operator",
+        "detail": "3",
+        "documentation": {}
+    },
+    {
+        "label": "val2",
+        "kind": 5,
+        "importPath": "3",
+        "description": "3",
+        "peekOfCode": "val2 = False #True\nprint(not val2) # not operator\nprint(val1 and val2) # and operator\nprint(val1 or val2) # or operator",
+        "detail": "3",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "4",
+        "description": "4",
+        "peekOfCode": "user = input(\"enter the value :- \")\nuser1 = int(input(\"enter the value :- \"))\noutput = int(user) + user1\nprint(output)",
+        "detail": "4",
+        "documentation": {}
+    },
+    {
+        "label": "user1",
+        "kind": 5,
+        "importPath": "4",
+        "description": "4",
+        "peekOfCode": "user1 = int(input(\"enter the value :- \"))\noutput = int(user) + user1\nprint(output)",
+        "detail": "4",
+        "documentation": {}
+    },
+    {
+        "label": "output",
+        "kind": 5,
+        "importPath": "4",
+        "description": "4",
+        "peekOfCode": "output = int(user) + user1\nprint(output)",
+        "detail": "4",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"string",
+        "kind": 5,
+        "importPath": "5",
+        "description": "5",
+        "peekOfCode": "\"\"\"string = \"krishna kumar gupta\"\nprint(string)\nprint(len(string)) #show rhe length of string\nprint(string[6]) #show index value of string \"\"\"\n# Slicing :-\n\"\"\"str1 = \"slicing is the part of the string\"\nprint(str1[10 : 19]) # it show string from 10th index to 18th index value\nprint(str1[ : len(str1)])  # from starting to the length of string\nprint(str1[-15 : -10])  # it start from right side comes to right side\"\"\"\n# functions of string :-",
+        "detail": "5",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"str1",
+        "kind": 5,
+        "importPath": "5",
+        "description": "5",
+        "peekOfCode": "\"\"\"str1 = \"slicing is the part of the string\"\nprint(str1[10 : 19]) # it show string from 10th index to 18th index value\nprint(str1[ : len(str1)])  # from starting to the length of string\nprint(str1[-15 : -10])  # it start from right side comes to right side\"\"\"\n# functions of string :-\n\"\"\"str2 = \"some random string\"\nprint(str2.capitalize()) #it capatalize the first word of the string\nprint(str2.endswith(\"ing\")) # it returns true if the string ends with derived value\nprint(str2.replace(\"random\",\"given\")) # it change the value from old one to new one \"str.replace(\"old\", \"value\")\"\nprint(str2.find(\"string\")) # retrun first index of first occrence",
+        "detail": "5",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"str2",
+        "kind": 5,
+        "importPath": "5",
+        "description": "5",
+        "peekOfCode": "\"\"\"str2 = \"some random string\"\nprint(str2.capitalize()) #it capatalize the first word of the string\nprint(str2.endswith(\"ing\")) # it returns true if the string ends with derived value\nprint(str2.replace(\"random\",\"given\")) # it change the value from old one to new one \"str.replace(\"old\", \"value\")\"\nprint(str2.find(\"string\")) # retrun first index of first occrence\nprint(str2.count(\"s\")) # it counts the occurence of word\"\"\"\n# Practice question\n\"\"\" write a program to input user's first name and print it's length\"\"\"\nuser = input(\"enter your first name :- \")\nprint(user)",
+        "detail": "5",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "5",
+        "description": "5",
+        "peekOfCode": "user = input(\"enter your first name :- \")\nprint(user)\nprint(len(user))\n\"\"\"write program to find the occurence of $ in string\"\"\"\nstr = \"find the occurence of $, if $ is present then count function give the value of occerence of $\"\nprint(str.count(\"$\"))",
+        "detail": "5",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "5",
+        "description": "5",
+        "peekOfCode": "str = \"find the occurence of $, if $ is present then count function give the value of occerence of $\"\nprint(str.count(\"$\"))",
+        "detail": "5",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"list",
+        "kind": 5,
+        "importPath": "6",
+        "description": "6",
+        "peekOfCode": "\"\"\"list = [1, 1.2, \"krishna\", True, 1, 2, 2]\nprint(list)\nprint(type(list))\nlist[1] = 2.6  # we can change indwx value in python \nprint(list)\"\"\"\n# list slicing\n\"\"\"print(list[1 : 4])\"\"\"\n# functions in list :-\n\"\"\"list2 = [4, 12, 3 , 1, 6, 5]\n# append function ;-",
+        "detail": "6",
+        "documentation": {}
+    },
+    {
+        "label": "list[1]",
+        "kind": 5,
+        "importPath": "6",
+        "description": "6",
+        "peekOfCode": "list[1] = 2.6  # we can change indwx value in python \nprint(list)\"\"\"\n# list slicing\n\"\"\"print(list[1 : 4])\"\"\"\n# functions in list :-\n\"\"\"list2 = [4, 12, 3 , 1, 6, 5]\n# append function ;-\nlist2.append(7)  #It added the item to the end of the list \n# print(list2)\n# sort function :-",
+        "detail": "6",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"list2",
+        "kind": 5,
+        "importPath": "6",
+        "description": "6",
+        "peekOfCode": "\"\"\"list2 = [4, 12, 3 , 1, 6, 5]\n# append function ;-\nlist2.append(7)  #It added the item to the end of the list \n# print(list2)\n# sort function :-\nlist2.sort()  # it sort the list item in assending way\nprint(list2)\n# sort reverse\nlist2.sort(reverse=True)\nprint(list2)",
+        "detail": "6",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"tup",
+        "kind": 5,
+        "importPath": "6",
+        "description": "6",
+        "peekOfCode": "\"\"\"tup = (1, 2, 3, 4, 5, 6, 4, 4)\nprint(tup, type(tup))\ntup1 = (\"krishna\", 1, 1.2)  # so it can also cantain different data type values like list\nprint(tup1)\nprint(tup1[2]) # it print's the value that have index 2\n# slicing in tuples :=\nprint(tup[0:3])\n# Methods in tuples \n# index method \nprint(tup.index(6)) # it show the index no. of give value",
+        "detail": "6",
+        "documentation": {}
+    },
+    {
+        "label": "tup1",
+        "kind": 5,
+        "importPath": "6",
+        "description": "6",
+        "peekOfCode": "tup1 = (\"krishna\", 1, 1.2)  # so it can also cantain different data type values like list\nprint(tup1)\nprint(tup1[2]) # it print's the value that have index 2\n# slicing in tuples :=\nprint(tup[0:3])\n# Methods in tuples \n# index method \nprint(tup.index(6)) # it show the index no. of give value\n#count method\nprint(tup.count(4)) # it counts that the how many time the same value occure \"\"\"",
+        "detail": "6",
+        "documentation": {}
+    },
+    {
+        "label": "dict",
+        "kind": 5,
+        "importPath": "7",
+        "description": "7",
+        "peekOfCode": "dict = {}  # it is null dict. fi want we can add key- values latre\n# Example :=         Note : dictionary is mutable and can not store duplicate values\n\"\"\"detail = {\n    \"name\": \"krishna\",          #here, 'name' is \"key\" and 'krishna' is \"value\" of that key\n    \"branch\": \"CSEIML\",\n    \"roll-no\": 26,\n    \"phone\": 123456\n}\nprint(detail)\nprint(type(detail))",
+        "detail": "7",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"detail",
+        "kind": 5,
+        "importPath": "7",
+        "description": "7",
+        "peekOfCode": "\"\"\"detail = {\n    \"name\": \"krishna\",          #here, 'name' is \"key\" and 'krishna' is \"value\" of that key\n    \"branch\": \"CSEIML\",\n    \"roll-no\": 26,\n    \"phone\": 123456\n}\nprint(detail)\nprint(type(detail))\nprint(detail[\"name\"]) # access one key \nprint(detail[\"phone\"])\"\"\"",
+        "detail": "7",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "7",
+        "description": "7",
+        "peekOfCode": "student = {\n    \"name\": \"krishna kumar gupta\",\n    \"roll-no\": 70679191660,\n    \"subject\":{\n        \"nlp\": 37,\n        \"aoc\": 28,\n        \"ds\": 49,\n        \"se\": 45,\n        \"apt\": 43\n    },",
+        "detail": "7",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "kind": 5,
+        "importPath": "7",
+        "description": "7",
+        "peekOfCode": "set = {1, 1.2, \"krishna\", True, (2, 1, 3.3)} \n# print(set)\n# print(type(set))\n# methods in sets :-\n\"\"\"#set.add(x) :-\nset.add(\"new_word\")  # add new element\nprint(set)\n# set.remove(x) :-\nset.remove(\"new_word\")  # remove element\nprint(set)",
+        "detail": "7",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "7",
+        "description": "7",
+        "peekOfCode": "set1 = {1, 2, 3, 4, 5, 6}\nset2 = {2, 4, 6, 8, 10}\nprint(set1.union(set2)) # it prints all the uniqe values\nprint(set1.intersection(set2)) # it prints all the common value in set\"\"\"\n############-------------&&&&&&&&&&&&&&&--------------################\n# Practise Questions :-\n\"\"\"Q1.  store following word meanning in dictanory :\n        \"table\" : \"a piece of furniture\", \"list of facts and figure\"\n        \"cat\" : \"a small animal\" \"\"\"\n# store = {}",
+        "detail": "7",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "7",
+        "description": "7",
+        "peekOfCode": "set2 = {2, 4, 6, 8, 10}\nprint(set1.union(set2)) # it prints all the uniqe values\nprint(set1.intersection(set2)) # it prints all the common value in set\"\"\"\n############-------------&&&&&&&&&&&&&&&--------------################\n# Practise Questions :-\n\"\"\"Q1.  store following word meanning in dictanory :\n        \"table\" : \"a piece of furniture\", \"list of facts and figure\"\n        \"cat\" : \"a small animal\" \"\"\"\n# store = {}\n# store.update({\"table\" : [\"a piece of furniture\", \"list of facts and figure\"],",
+        "detail": "7",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "7",
+        "description": "7",
+        "peekOfCode": "num = {9, \"0.9\"}\nprint(num)\n        # way 2 :\nnum1 = {\n    (\"int\", 9),(\"float\", 9.0)\n}\nprint(num1)",
+        "detail": "7",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "7",
+        "description": "7",
+        "peekOfCode": "num1 = {\n    (\"int\", 9),(\"float\", 9.0)\n}\nprint(num1)",
+        "detail": "7",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"i",
+        "kind": 5,
+        "importPath": "8",
+        "description": "8",
+        "peekOfCode": "\"\"\"i = 1\nwhile i <= 10:\n    print(i)\n    i += 1\"\"\"\n############## While loop practise question ################\n\"\"\"Q. print numbers from 100 to 1 \"\"\"\n# num = 100\n# while num >= 1:\n#     print(num)\n#     num = num - 1",
+        "detail": "8",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"list",
+        "kind": 5,
+        "importPath": "8",
+        "description": "8",
+        "peekOfCode": "\"\"\"list = [1,2,3,4,5,6]\nfor i in list :    # i is keyword used for accessing elements( we can take any character)\n    print(i)\nelse:\n    print(\"end\")\"\"\"\n### fro loop practice question\n\"\"\"Q. print the element using for loop\n       [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\"\"\"\n# loop_list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\n# for i in loop_list:",
+        "detail": "8",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "8",
+        "description": "8",
+        "peekOfCode": "num = int(input(\"enter the number : \"))\nfact = 1\nfor i in range(1, num+1):\n    fact *= i\nprint(fact)",
+        "detail": "8",
+        "documentation": {}
+    },
+    {
+        "label": "fact",
+        "kind": 5,
+        "importPath": "8",
+        "description": "8",
+        "peekOfCode": "fact = 1\nfor i in range(1, num+1):\n    fact *= i\nprint(fact)",
+        "detail": "8",
+        "documentation": {}
+    },
+    {
+        "label": "call",
+        "kind": 2,
+        "importPath": "9",
+        "description": "9",
+        "peekOfCode": "def call(list, n = 0):\n    if(n == len(list)):\n        return\n    else:\n        return(list,n)\nprint(call(anime_heroes))",
+        "detail": "9",
+        "documentation": {}
+    },
+    {
+        "label": "anime_heroes",
+        "kind": 5,
+        "importPath": "9",
+        "description": "9",
+        "peekOfCode": "anime_heroes = [\"goku\",\"naruto\",\"luffy\",\"asta\",\"gojo\",\"zoro\",\"natsu\",\"rimuru\",\"tanjiro\",\"nami\"]    \ndef call(list, n = 0):\n    if(n == len(list)):\n        return\n    else:\n        return(list,n)\nprint(call(anime_heroes))",
+        "detail": "9",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "tempCodeRunnerFile",
+        "description": "tempCodeRunnerFile",
+        "peekOfCode": "class Account:\n#     def __init__(self, balance, account_no):\n#         self.balance = balance\n#         self.account_no = account_no\n#         # debit metod\n#     def debit(self, amount):\n#         self.balance -= amount\n#         print(\"Rs.\",amount, \" is debited.\")\n#         print(\"Total balance is: \",self.org_balance())\n#         # credit method",
+        "detail": "tempCodeRunnerFile",
+        "documentation": {}
+    }
+]
